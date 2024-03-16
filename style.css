@@ -1,0 +1,82 @@
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        background-color: gray;
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        position: sticky;
+        top: 20%;
+        display: flex;
+        flex-direction: column;
+        width: 80%; /* Adjusted width for responsiveness */
+        max-width: 400px; /* Added max-width for responsiveness */
+        height: auto; /* Changed to auto for responsiveness */
+        margin: 10% auto; /* Adjusted margin for responsiveness */
+        background-color: rgb(60, 255, 0);
+        border-radius: 1rem;
+        padding: 1rem; /* Added padding for spacing */
+      }
+
+      .heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Centered heading */
+        margin-bottom: 1rem; /* Added margin for spacing */
+      }
+
+      .head1,
+      .head2 {
+        font-size: 2rem;
+        font-weight: 800;
+        color: rgb(214, 13, 13); /* Changed text color for better visibility */
+      }
+
+      .main-input {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1rem; /* Added margin for spacing */
+      }
+
+      .input-label {
+        font-size: 1.3rem; /* Adjusted font size */
+        color:rgb(68, 0, 255);
+        margin-bottom: 0.5rem; /* Added margin for spacing */
+      }
+
+      .input {
+        padding: 0.8rem;
+        border: none;
+        font-size: 1rem;
+        border-radius: 0.5rem;
+        width: 100%;
+        max-width: 250px; /* Added max-width for responsiveness */
+        background-color: #fff;
+        margin-bottom: 0.5rem; /* Added margin for spacing */
+      }
+
+      .btn {
+        padding: 0.8rem;
+        border: none;
+        border-radius: 0.5rem;
+        background-color: yellow;
+        cursor: pointer;
+      }
+      .btn:hover{
+        background-color: red;
+      }
+
+      .output {
+        font-size: 1rem; /* Adjusted font size */
+        font-weight: 400;
+        text-align: center; /* Centered output */
+        margin-top: 1rem; /* Added margin for spacing */
+      }
+    
